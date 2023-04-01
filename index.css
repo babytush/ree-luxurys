@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    width: 90%;
+    
+}
+a{
+    color: black;
+    font-size: x-large;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+header img{
+    width: 20%;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    font-weight: bolder;
+    
+}
+h2{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    color: ;
+}
+.wig{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wp{
+    width: 5%;
+    margin-top: 10px;
+}
+.wa{
+    display: flex;
+    gap: 5px;
+    
+}
+.wa p{
+    position: relative;
+    top: 08px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+
+}
+
+footer img{
+    width: 20%;
+    display: flex;
+    
+}
+
+
+@media screen and (max-width: 600px){
+
+    .socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+
+}
